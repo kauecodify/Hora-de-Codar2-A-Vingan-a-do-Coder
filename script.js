@@ -1,4 +1,4 @@
-//1-sulicita usuariioo que insira dois numeros usando prompt
+//1-solicita usuario que insira dois numeros usando prompt
 var numero1 = parseFloat(prompt("Digite o primeiro número: "));
 var numero2 = parseFloat(prompt("Digite o segundo número:"));
 
@@ -54,7 +54,7 @@ console.log("A soma dos valores é:" +somaDosMaiores);
  console,log("Números informados:"+valores.join(","));
  console.log("A média aritmética dos valores é:" + media);
 
-//6-solicita 4 vaalores e aloca o primeiro, último e valor maior
+//6-solicita 4 valores e aloca o primeiro, último e valor maior
 function encontrarMaior(array) {
     let maior = array[0];
     for (let i = 1; i < array.length; i++) {
@@ -122,7 +122,7 @@ if (idade>=16) {
     console.log("inapto.");
 }
 
-//10-altura, sexo (m or f) com base em imc traga o peso ideal
+//10-altura, sexo (m or f) com base em imc trás o peso ideal
 function calcularpesoIdeal(altura, sexo) {
     let pesoIdeal;
     if(sexo===f){
